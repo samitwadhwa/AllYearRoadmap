@@ -358,6 +358,159 @@ export default function Home() {
           </div>
         </div>
 
+        {/* Free YouTube Resources Section */}
+        <div className="mt-8 bg-gradient-to-br from-red-50 to-pink-50 rounded-2xl shadow-xl p-8 border-2 border-red-200">
+          <div className="text-center mb-8">
+            <h3 className="text-3xl font-bold text-gray-900 mb-2">
+              🎓 Free Learning Resources
+            </h3>
+            <p className="text-lg text-gray-600">
+              Learn everything for free from these recommended YouTube channels and courses
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {/* React */}
+            <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow border-l-4 border-blue-500">
+              <div className="flex items-center mb-3">
+                <span className="text-2xl mr-2">⚛️</span>
+                <h4 className="text-xl font-bold text-gray-900">React</h4>
+              </div>
+              <p className="text-gray-600 mb-4 text-sm">
+                Learn React from scratch with ThapaTechnical
+              </p>
+              <a
+                href="https://www.youtube.com/@ThapaTechnical"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors text-sm font-semibold"
+              >
+                Watch on YouTube →
+              </a>
+            </div>
+
+            {/* JavaScript */}
+            <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow border-l-4 border-yellow-500">
+              <div className="flex items-center mb-3">
+                <span className="text-2xl mr-2">📜</span>
+                <h4 className="text-xl font-bold text-gray-900">JavaScript</h4>
+              </div>
+              <p className="text-gray-600 mb-4 text-sm">
+                Master JavaScript fundamentals
+              </p>
+              <a
+                href="https://youtu.be/pN6jk0uUrD8?si=qRgbac1JNSbCScuT"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-4 py-2 bg-yellow-600 text-white rounded-lg hover:bg-yellow-700 transition-colors text-sm font-semibold"
+              >
+                Watch on YouTube →
+              </a>
+            </div>
+
+            {/* Generative AI */}
+            <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow border-l-4 border-purple-500">
+              <div className="flex items-center mb-3">
+                <span className="text-2xl mr-2">🤖</span>
+                <h4 className="text-xl font-bold text-gray-900">Generative AI</h4>
+              </div>
+              <p className="text-gray-600 mb-4 text-sm">
+                Complete Generative AI course
+              </p>
+              <a
+                href="https://youtu.be/d4yCWBGFCEs?si=SgmzinMP84TRZwxl"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors text-sm font-semibold"
+              >
+                Watch on YouTube →
+              </a>
+            </div>
+
+            {/* DSA by Love Babbar */}
+            <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow border-l-4 border-red-500">
+              <div className="flex items-center mb-3">
+                <span className="text-2xl mr-2">❤️</span>
+                <h4 className="text-xl font-bold text-gray-900">DSA - Love Babbar</h4>
+              </div>
+              <p className="text-gray-600 mb-4 text-sm">
+                Data Structures & Algorithms by Love Babbar
+              </p>
+              <a
+                href="https://youtu.be/0TEvaAiqo8Y?si=oHmqW3BoOy--KdlY"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors text-sm font-semibold"
+              >
+                Watch on YouTube →
+              </a>
+            </div>
+
+            {/* DSA by Apna College */}
+            <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow border-l-4 border-green-500">
+              <div className="flex items-center mb-3">
+                <span className="text-2xl mr-2">🏫</span>
+                <h4 className="text-xl font-bold text-gray-900">DSA - Apna College</h4>
+              </div>
+              <p className="text-gray-600 mb-4 text-sm">
+                Data Structures & Algorithms by Apna College
+              </p>
+              <a
+                href="https://youtu.be/-DzowlcaUmE?si=ozzvmHkbZiOH_NiH"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors text-sm font-semibold"
+              >
+                Watch on YouTube →
+              </a>
+            </div>
+
+            {/* Java, OOPs, DSA by Kunal Kushwaha */}
+            <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow border-l-4 border-orange-500">
+              <div className="flex items-center mb-3">
+                <span className="text-2xl mr-2">☕</span>
+                <h4 className="text-xl font-bold text-gray-900">Java & OOPs</h4>
+              </div>
+              <p className="text-gray-600 mb-4 text-sm">
+                Java, OOPs, and DSA by Kunal Kushwaha
+              </p>
+              <a
+                href="https://youtu.be/46T2wD3IuhM?si=qHTXQc6G6lwUAhCr"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-4 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors text-sm font-semibold"
+              >
+                Watch on YouTube →
+              </a>
+            </div>
+
+            {/* Competitive Programming */}
+            <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow border-l-4 border-indigo-500 md:col-span-2 lg:col-span-1">
+              <div className="flex items-center mb-3">
+                <span className="text-2xl mr-2">🏆</span>
+                <h4 className="text-xl font-bold text-gray-900">Competitive Programming</h4>
+              </div>
+              <p className="text-gray-600 mb-4 text-sm">
+                Competitive Programming by Priyansh Agarwal
+              </p>
+              <a
+                href="https://youtu.be/n-Xkbqcfi9w?si=HBXY5BQuMAG4XSlr"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors text-sm font-semibold"
+              >
+                Watch on YouTube →
+              </a>
+            </div>
+          </div>
+
+          <div className="mt-6 text-center">
+            <p className="text-gray-600 text-sm">
+              💡 <strong>Tip:</strong> Subscribe to these channels and turn on notifications to never miss new content!
+            </p>
+          </div>
+        </div>
+
         {/* Important Note */}
         <div className="mt-8 bg-yellow-50 border-l-4 border-yellow-400 p-6 rounded-lg">
           <h4 className="font-bold text-yellow-900 mb-2">Important Reminder</h4>
